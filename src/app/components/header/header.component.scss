@@ -1,0 +1,14 @@
+nav {
+    background-color: var(--akon-bg-header);
+}
+
+.nav-item {
+    font-weight: bold;
+    color: black;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-content-position {
+        justify-content: end;
+    }
+}

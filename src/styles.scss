@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+// FONT CONFIG
+
+@font-face {
+    font-family: 'Poppins', Sans-serif;
+    src: url('./assets/fonts/Poppins-Light.ttf');
+}
+
+* {
+    font-family: 'Poppins', Sans-serif;
+    font-weight: 300;
+}
+
+html body {
+    background: var(--akon-bg-light);
+}
+
+// COLOR PALETTE
+
+:root {
+    --akon1: #093c4a;
+    --akon2: #469fb0;
+    --akon-bg-light: #e4e6e4;
+    --akon-bg-dark: #232727;
+    --akon-bg-header: #5eb199a8;
+}
+
+// CSS
+.container-magin-top {
+    margin-top: 10vh;
+}
+
+body {
+    background: 'red' !important;
+}
