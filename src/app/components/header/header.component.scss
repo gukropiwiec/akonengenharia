@@ -3,8 +3,12 @@ nav {
 }
 
 .nav-item {
-    font-weight: bold;
     color: black;
+}
+
+.img-header-logo {
+    max-width: 40px;
+    filter: brightness(0);
 }
 
 @media screen and (min-width: 992px) {
