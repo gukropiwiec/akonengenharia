@@ -3,10 +3,14 @@
 }
 
 .second-content-about {
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .card-about {
     background: var(--akon1);
     color: whitesmoke;
+}
+
+.icon-about {
+    filter: invert(100%);
 }
