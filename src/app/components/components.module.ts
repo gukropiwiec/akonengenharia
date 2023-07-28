@@ -7,6 +7,7 @@ import { SectionAboutComponent } from './section-about/section-about.component';
 import { SectionServicesComponent } from './section-services/section-services.component';
 import { CarouselComponent } from './carousel/carousel.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { SectionPortfolioComponent } from './section-portfolio/section-portfolio.component';
 
 const moduleComponents = [
     HeaderComponent,
@@ -14,7 +15,8 @@ const moduleComponents = [
     SectionHomeComponent,
     SectionAboutComponent,
     SectionServicesComponent,
-    CarouselComponent
+    CarouselComponent,
+    SectionPortfolioComponent
 ];
 
 @NgModule({
