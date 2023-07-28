@@ -1,17 +1,12 @@
 // FONT CONFIG
 
 @font-face {
-    font-family: 'Poppins', Sans-serif;
+    font-family: 'Poppins';
     src: url('./assets/fonts/Poppins-Light.ttf');
 }
 
 * {
-    font-family: 'Poppins', Sans-serif;
-    font-weight: 300;
-}
-
-html body {
-    background: var(--akon-bg-light);
+    font-family: 'Poppins';
 }
 
 // COLOR PALETTE
@@ -29,6 +24,20 @@ html body {
     margin-top: 10vh;
 }
 
-body {
-    background: 'red' !important;
+html body {
+    background: var(--akon-bg-light);
+    font-family: 'Poppins';
+}
+
+.section-bg-white {
+    background: whitesmoke;
+}
+
+.padding-section {
+   padding-top: 6rem;
+   padding-bottom: 6rem; 
+}
+
+.text-akon {
+    color: var(--akon2);
 }
