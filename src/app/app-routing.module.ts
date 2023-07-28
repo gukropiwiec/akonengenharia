@@ -5,7 +5,11 @@ import { HomeComponent } from './pages/home/home.component';
 const routes: Routes = [{ path: '', component: HomeComponent }];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes, {
+        anchorScrolling: 'enabled',
+        scrollOffset: [0, 80],
+        scrollPositionRestoration: 'enabled'
+    })],
+    exports: [RouterModule]
 })
 export class AppRoutingModule { }
