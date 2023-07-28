@@ -4,8 +4,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SectionHomeComponent } from './section-home/section-home.component';
 import { SectionAboutComponent } from './section-about/section-about.component';
+import { SectionServicesComponent } from './section-services/section-services.component';
 
-const moduleComponents = [HeaderComponent, FooterComponent, SectionHomeComponent, SectionAboutComponent];
+const moduleComponents = [HeaderComponent, FooterComponent, SectionHomeComponent, SectionAboutComponent, SectionServicesComponent];
 
 @NgModule({
     imports: [
