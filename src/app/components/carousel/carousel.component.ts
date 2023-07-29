@@ -10,9 +10,11 @@ export class CarouselComponent {
     defaultCarouselOptions = defaultCarouselOptions;
     
     fotos = [
-        'assets/work_in_progress.png',
-        'assets/work_in_progress.png',
-        'assets/work_in_progress.png',
-        'assets/work_in_progress.png'
+        'assets/carousel1.jpg',
+        'assets/carousel2.jpg',
+        'assets/carousel3.jpg',
+        'assets/carousel4.jpg',
+        'assets/carousel5.jpg',
+        'assets/carousel6.jpg'
     ];
 }
