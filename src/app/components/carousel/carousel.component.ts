@@ -15,6 +15,8 @@ export class CarouselComponent {
         'assets/carousel3.jpg',
         'assets/carousel4.jpg',
         'assets/carousel5.jpg',
-        'assets/carousel6.jpg'
+        'assets/carousel6.jpg',
+        'assets/carousel7.jpg',
+        'assets/carousel8.jpg'
     ];
 }

@@ -7,7 +7,7 @@ const routes: Routes = [{ path: '', component: HomeComponent }];
 @NgModule({
     imports: [RouterModule.forRoot(routes, {
         anchorScrolling: 'enabled',
-        scrollOffset: [0, 80],
+        scrollOffset: [0, 50],
         scrollPositionRestoration: 'disabled'
     })],
     exports: [RouterModule]
