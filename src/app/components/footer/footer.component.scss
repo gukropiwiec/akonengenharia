@@ -4,3 +4,13 @@
         margin-right: 2rem;
     }
 }
+
+.col-maps {
+    iframe {
+        height: 350px;
+        width: 100%;
+        max-width: 100%;
+        border: 0;
+        border-radius: 8px;
+    }
+}
